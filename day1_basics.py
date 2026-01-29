@@ -43,7 +43,7 @@ def compare_two_numbers():
 
     if num1 > num2:
         print("First number is greater")
-    elif num2 > num1:
+    elif num1 < num2:
         print("Second number is greater")
     else:
         print("Both are equal")
@@ -102,7 +102,6 @@ def count_even_numbers():
 
 
 # count_even_numbers()
-
 
 # --------------------------------------------
 # Question 5:
